@@ -1,0 +1,322 @@
+/* ===========================================
+   RESPONSIVE DESIGN FOR BMI CALCULATOR
+   =========================================== */
+
+/* Large Tablets and Small Desktops (1024px and below) */
+@media screen and (max-width: 1024px) {
+    main {
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .main-container, 
+    .categories, 
+    .bmi-info {
+        max-width: 450px;
+    }
+    
+    .header h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 25px;
+    }
+    
+    .main-container {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 0;
+    }
+    
+    .right-box {
+        width: 100%;
+        max-width: 600px;
+        gap: 20px;
+    }
+    
+    .categories, 
+    .bmi-info {
+        width: 100%;
+        max-width: 600px;
+        min-width: unset;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .header p {
+        font-size: 1rem;
+    }
+    
+    /* Adjust table for better mobile readability */
+    table th, table td {
+        padding: 12px 8px;
+        font-size: 0.95rem;
+    }
+    
+    .bmi-result2 {
+        width: 70%;
+        font-size: 1.1rem;
+        padding: 16px;
+    }
+}
+
+/* Small Tablets and Large Phones (600px and below) */
+@media screen and (max-width: 600px) {
+    body {
+        min-height: 100vh;
+    }
+    
+    main {
+        padding: 10px;
+        gap: 20px;
+    }
+    
+    .box {
+        width: 95%;
+        padding: 0 10px;
+    }
+    
+    .header {
+        margin-bottom: 30px;
+    }
+    
+    .header h1 {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
+    
+    .header p {
+        font-size: 0.95rem;
+    }
+    
+    /* Form adjustments */
+    .input-group {
+        margin-bottom: 20px;
+    }
+    
+    .input-group input {
+        padding: 12px 15px;
+        font-size: 1rem;
+    }
+    
+    .unit-toggle {
+        margin-bottom: 20px;
+    }
+    
+    .unit-toggle button {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+    
+    .sub-button {
+        padding: 15px;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    
+    /* Categories section */
+    .categories {
+        margin-bottom: 20px;
+    }
+    
+    .category-header h1 {
+        font-size: 1.3rem;
+        padding: 8px 0;
+    }
+    
+    table th, table td {
+        padding: 10px 6px;
+        font-size: 0.9rem;
+    }
+    
+    .bmi-result2 {
+        width: 80%;
+        font-size: 1rem;
+        padding: 14px;
+    }
+    
+    /* BMI Info section */
+    .bmi-info {
+        padding: 15px;
+        font-size: 0.95rem;
+    }
+    
+    .bmi-info span {
+        font-size: 1.3rem;
+    }
+}
+
+/* Mobile Phones (480px and below) */
+@media screen and (max-width: 480px) {
+    /* Navigation adjustments */
+    .navbar ul {
+        gap: 15px;
+        padding-top: 12px;
+    }
+    
+    .navbar li {
+        font-size: 1rem;
+    }
+    
+    main {
+        padding: 8px;
+        padding-top: 15px;
+    }
+
+    .box {
+        width: 100%;
+        padding: 0 8px;
+        border-radius: 15px;
+    }
+    
+    .header h1 {
+        font-size: 1.6rem;
+    }
+    
+    .header p {
+        font-size: 0.9rem;
+    }
+    
+    /* Make form more touch-friendly */
+    .input-group input {
+        padding: 14px 12px;
+        border-radius: 10px;
+    }
+    
+    .unit-toggle {
+        border-radius: 10px;
+    }
+    
+    .unit-toggle button {
+        padding: 12px 8px;
+        border-radius: 6px;
+        font-size: 0.9rem;
+    }
+    
+    .sub-button {
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+    
+    /* Categories adjustments */
+    .categories, .bmi-info {
+        border-radius: 15px;
+    }
+    
+    .category-header h1 {
+        font-size: 1.2rem;
+    }
+    
+    /* Make table more compact */
+    table th, table td {
+        padding: 8px 4px;
+        font-size: 0.85rem;
+    }
+    
+    table th {
+        font-size: 0.8rem;
+    }
+    
+    .bmi-result2 {
+        width: 90%;
+        font-size: 0.95rem;
+        padding: 12px;
+        border-radius: 10px;
+    }
+    
+    .bmi-info {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+    
+    .bmi-info span {
+        font-size: 1.2rem;
+    }
+}
+
+/* Extra Small Devices (320px and below) */
+@media screen and (max-width: 320px) {
+    .header h1 {
+        font-size: 1.4rem;
+    }
+    
+    .header p {
+        font-size: 0.85rem;
+    }
+    
+    .input-group input {
+        font-size: 0.95rem;
+    }
+    
+    .unit-toggle button {
+        font-size: 0.85rem;
+    }
+    
+    .sub-button {
+        font-size: 0.95rem;
+    }
+    
+    .category-header h1 {
+        font-size: 1.1rem;
+    }
+    
+    table th, table td {
+        padding: 6px 2px;
+        font-size: 0.8rem;
+    }
+    
+    .bmi-result2 {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    
+    .bmi-info {
+        font-size: 0.85rem;
+    }
+}
+
+/* Landscape orientation adjustments for mobile */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    main {
+        flex-direction: row;
+        align-items: flex-start;
+        overflow-x: auto;
+    }
+    
+    .main-container {
+        flex-shrink: 0;
+        margin-right: 20px;
+    }
+    
+    .right-box {
+        flex-shrink: 0;
+        max-width: 400px;
+    }
+}
+
+/* Print styles */
+@media print {
+    nav {
+        display: none;
+    }
+    
+    main {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .main-container, .categories, .bmi-info {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+}
