@@ -19,4 +19,8 @@ It allows users to calculate their Body Mass Index (BMI) and provides health adv
 2. Click **"Calculate BMI"**.  
 3. View your BMI score and health tips.  
 
+## 🚀 Demo
+You can try it live here 👉 [GitHub Pages Link](https://patel-vipul.github.io/BMI-Calculator/)  
+
+
 ## 📂 Project Structure
